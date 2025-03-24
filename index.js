@@ -29,13 +29,13 @@ app.get('/user-info/:id', (req, res) => {
   const studentId = req.params.id;
   
   // Input validation
-  if (!studentId || (studentId !== '1' && studentId !== '2')) {
-    return res.status(400).json({ error: 'Invalid student ID. Must be 1 or 2.' });
+  if (isNaN(studentId) || parseInt(studentId) <= 0) {
+    return res.status(400).json({ error: 'Student ID must be a postive number.' });
   }
   
   // Check if student exists based on team composition
   if (!students[studentId]) {
-    return res.status(404).json({ error: 'Student not found. This team may have only one member.' });
+    return res.status(404).json({ error: 'Student not found.' });
   }
   
   // Return student information
@@ -49,5 +49,5 @@ app.get('/', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port http://localhost:${PORT}`);
 });
