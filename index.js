@@ -12,8 +12,8 @@ const students = {};
 students["1"] = {
   "name": "Alejandro",
   "lastName": "Parra",
-  "email": "poner email",
-  "id": "poner id"
+  "email": "alejandropaga@unisabana.edu.co",
+  "id": "0000322607"
 };
 
 // Student 2 information
