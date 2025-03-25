@@ -63,3 +63,10 @@ El objeto JSON que debe retornar cada endpoint debe tener la siguiente estructur
 - [Guía de Node.js](https://nodejs.org/es/docs/)
 - [ Despliegue de aplicaciones Node.js en Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
 - [Despliegue de aplicaciones Express.js en Vercel](https://vercel.com/docs/deployments/overview/)
+
+# Links
+- [Root](https://express-101-ponganbachata.vercel.app/)
+- [Estudiante 1](https://express-101-ponganbachata.vercel.app/user-info/1)
+- [Estudiante 2](https://express-101-ponganbachata.vercel.app/user-info/2)
+- [Error 404](https://express-101-ponganbachata.vercel.app/user-info/3)
+- [Error 400](https://express-101-ponganbachata.vercel.app/user-info/a)
